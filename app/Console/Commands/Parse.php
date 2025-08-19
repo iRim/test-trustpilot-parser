@@ -27,7 +27,6 @@ class Parse extends Command
     public function handle()
     {
         Link::query()
-            ->where('id', 2)
             ->get()
             ->map(function ($row) {
                 $this->info('##################################################');
