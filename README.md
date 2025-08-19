@@ -1,10 +1,10 @@
 ### Ініціаплізація проєкту
 
-`bash php artisan migrate --seed`
+`php artisan migrate --seed`
 
 ### Запуск скрипта
 
-`bash php artisan parse`
+`php artisan parse`
 
 ### Зображення
 
