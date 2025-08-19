@@ -48,7 +48,7 @@ class Parser
 
         foreach ($comments as $comment) {
             $imgName = false;
-            if (!empty($datas->user->img)) {
+            if (!empty($comment->user->img)) {
                 $imgName = $comment->user->resource_user_id . '.png';
                 Storage::put('/images/' . $imgName, file_get_contents($comment->user->img));
             }
